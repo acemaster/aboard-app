@@ -21,10 +21,15 @@ Any version of android
 
 Free, reliable and most of all leads to an environment friendly world. 
 
+
 **Issues yet to address**
+
 -Have to add more places and cover more area
+
 -Need to include user rating system
+
 -Need to add total list of users giving a ride and how many seats left
+
 
 As i said its my first commit so lots of support expected :)
 
