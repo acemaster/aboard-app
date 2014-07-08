@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/nametxtlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="348dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginRight="102dp"
+        android:layout_marginTop="49dp"
+        android:hint="Name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/emailtxtlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nametxtlist"
+        android:layout_alignRight="@+id/nametxtlist"
+        android:layout_alignTop="@+id/nametxtlist"
+        android:layout_marginTop="146dp"
+        android:hint="Email"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/numbertxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/emailtxtlist"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="102dp"
+        android:text=""
+        android:hint="Telno"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/callnow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/numbertxt"
+        android:layout_alignBottom="@+id/numbertxt"
+        android:layout_toRightOf="@+id/emailtxtlist"
+        android:text="Call" />
+        
+</RelativeLayout>
